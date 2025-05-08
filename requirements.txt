@@ -4,3 +4,4 @@ uvicorn
 trafilatura
 pydantic
 python-dotenv
+requests
