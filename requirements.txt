@@ -2,3 +2,5 @@ fastapi
 fastapi[standard]
 uvicorn
 trafilatura
+pydantic
+python-dotenv
