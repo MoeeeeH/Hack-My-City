@@ -33,4 +33,6 @@ def health():
 @app.get("/api/events")
 def get_events():
     all_events = trueRelevanceDataSource.get_data()
+    for e in events:
+        all_events.append(e)
     return all_events

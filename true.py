@@ -84,9 +84,9 @@ class TrueRelevanceDataSource:
 
     def location_for_description(self, desc: str):
         completion = self.open_aiclient.chat.completions.create(
-          model="gpt-4.1-nano",
+          model="gpt-4.1-mini",
           messages=[
-                {"role": "user", "content": "Suche die genauen Adressen aus dem folgenden Text? schreibe alle adressen mit Straße Hausnummer Ort und PLZ mit Kommma getrennt ohne weitere Formatierung. hier ist der text: " + desc},
+                {"role": "user", "content": "Suche die genauen Adressen aus dem folgenden Text. Schreibe alle adressen mit Straße Hausnummer mit Kommma getrennt ohne weitere Formatierung. hier ist der text: " + desc},
           ]
         )
         return completion.choices[0].message.content
