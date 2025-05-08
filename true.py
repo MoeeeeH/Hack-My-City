@@ -1,7 +1,10 @@
+from openai import OpenAI
+
 import requests
 import os
 from dotenv import load_dotenv
 import datetime
+from geocode_events import extract_location
 from model import EventModel
 
 load_dotenv()
@@ -13,6 +16,9 @@ class TrueRelevanceDataSource:
         self.client_id = os.getenv("CF_ACCESS_CLIENT_ID")
         self.client_secret = os.getenv("CF_ACCESS_SECRET_KEY")
         self.events: list[EventModel] = []
+        self.open_aiclient = OpenAI(
+          api_key=os.getenv("OPENAI_API_KEY"),
+        )
 
     def get_data(self):
         if len(self.events) == 0:
@@ -30,7 +36,7 @@ class TrueRelevanceDataSource:
             "embedding_weight":0.4,
             "image_caption_text":"Landau an der Isar",
             "image_caption_weight":0.2,
-            "knn":100,
+            "knn":25,
             "sentiment":-10,
             "sentiment_operator":">",
             "time_filter_start":"2019-12-31T23:00:00.000Z",
@@ -53,9 +59,11 @@ class TrueRelevanceDataSource:
         j = 0
 
         for hit in hits['hits']['hits']:
-            print(hit)
             today = datetime.datetime.now()
             start_time = today + datetime.timedelta(days=j)
+
+            addr = self.location_for_description(hit["_source"]["article_body"])
+            lat, long = extract_location(addr)
 
             event = EventModel(
                 name=hit["_source"]["article_body"][0:20],
@@ -63,14 +71,25 @@ class TrueRelevanceDataSource:
                 start_time=start_time,
                 end_time=None,
                 category="news",
-                latitude=48.667102 + i,
-                longitude=12.695920 + i
+                latitude=lat or 48.667102 + i,
+                longitude=long or 12.695920 - i
             )
+
+            print(f"Name {event.name}, addr {addr}, lat {lat}, long {long}")
+
             i += 0.0001
             j += 1
 
             self.events.append(event)
 
+    def location_for_description(self, desc: str):
+        completion = self.open_aiclient.chat.completions.create(
+          model="gpt-4.1-nano",
+          messages=[
+                {"role": "user", "content": "Suche die genauen Adressen aus dem folgenden Text? schreibe alle adressen mit Straße Hausnummer Ort und PLZ mit Kommma getrennt ohne weitere Formatierung. hier ist der text: " + desc},
+          ]
+        )
+        return completion.choices[0].message.content
 
 
 trueRelevanceDataSource = TrueRelevanceDataSource()
