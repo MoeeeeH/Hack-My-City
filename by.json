@@ -1,0 +1,3526 @@
+{
+  "@context": [
+    "https://schema.org/",
+    {
+      "@base": "https://data.bayerncloud.digital/api/v4/universal/",
+      "@language": "de",
+      "skos": "https://www.w3.org/2009/08/skos-reference/skos.html#",
+      "dct": "http://purl.org/dc/terms/",
+      "cc": "http://creativecommons.org/ns#",
+      "dc": "https://schema.datacycle.at/",
+      "dcls": "https://data.bayerncloud.digital/schema/",
+      "odta": "https://odta.io/voc/",
+      "sdm": "https://smartdatamodels.org/",
+      "alps": "http://json-schema.org/draft-07/schema/destinationdata/schemas/2022-04/datatypes#/definitions/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "c7a2e607-3385-48c2-b1ec-6d68dbd96b3a",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "5ff82784-364f-481a-9410-851c3e62fbaf",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "43cd2018-6d8b-4d55-b8b5-b67242b31eaf",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ae4909fa-247a-4038-899c-f199ed48a876",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "cc6bb287-07a7-4dc5-8296-f455940a4512",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "b30363a6-e830-43ec-b944-11993c93619f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0c2ddd5f-c868-41f9-8855-b9c63ce6ec79",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "194993c6-8420-457c-9f12-19719929925b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d7e96299-ea5d-49a0-bd30-97b2fc3cba4b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bfb5ef04-cdf2-499d-b016-a1c535a04a8e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "5120741a-2296-4299-8e40-6863db5a3d9f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Karaoke im Splash",
+      "startDate": "2025-05-17T21:00:00.000+02:00",
+      "endDate": "2025-05-18T01:00:00.000+02:00",
+      "description": "\u003cp\u003eKommt vorbei zu unserer Karaoke Nacht im Splash. Es wird gelacht und richtig viel gesungen!\u003cbr\u003eKeine Scheu, jeder darf, keiner muss! Für die ersten 10 Sänger*innen gibt es ein Glas Sekt oder ein Bier gratis auf's Haus.\u003c/p\u003e",
+      "dc:additionalInformation": [
+        {
+          "@id": "61a542b6-8b47-4ab8-86b2-c235191aec1e",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "1b3b6126-e3fe-4bbf-9f50-d4bee23d753e",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "9e01db57-9e77-4ac0-b0c6-6401dc676dc1",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "3a4a153e-a140-4899-9810-48fda06264e6",
+          "@type": "Schedule"
+        }
+      ],
+      "organizer": [
+        {
+          "@id": "ec9fe800-ef2e-40c0-be7a-da6dbead1f6d",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "sdLicense": "https://creativecommons.org/licenses/by/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "5b50ba02-96ff-410e-9030-09021a5d5d02",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY 4.0 TI Berching",
+      "dc:slug": "karaoke-im-splash",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "c7a2e607-3385-48c2-b1ec-5eb0c8329603",
+          "value": 88.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "71fa7b6e-149a-4176-944f-07a744af0fd1",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3e10dc5f-16cb-4b24-8ee4-bda525d39a4e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bc2dbf1c-5397-415e-b2ff-33063a1e40ff",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3e21049f-4704-478d-81ff-b3c2dace9ba1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "40e44738-93dd-45a9-a87c-ac360912baab",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "34bc047f-cad7-408a-b63a-c538a28ce4e5",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3e0442cc-8573-4473-a3b9-bd7d9a115583",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "561c1f66-aae1-4f01-a8c9-9e16c28a2ce3",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0d90826d-7f94-499f-b420-0a1ad5a1d51e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1505a066-836d-4584-8edb-42cde8a330a9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d7c04b3f-a7a3-4642-8bee-a7bd7c074085",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "BR Wandertouren 2025 in der Rhön",
+      "startDate": "2025-06-10T00:00:00.000+02:00",
+      "endDate": "2025-06-13T00:00:00.000+02:00",
+      "description": "\u003cp\u003eGemeinsam mit dem \u003cstrong\u003eBayerischen Rundfunk\u003c/strong\u003e die faszinierende Landschaft des Mittelgebirges Rhön entdecken.\u003c/p\u003e\u003cp\u003eVom \u003cstrong\u003e10. bis 13. Juni\u003c/strong\u003e bietet sich die Gelegenheit, die Rhön gemeinsam mit dem Bayerischen Rundfunk auf abwechslungsreichen Wanderungen zu erleben.\u003c/p\u003e\u003cp\u003eAm Freitag, 13. Juni, ist die Teilnahme kostenlos und ohne Anmeldung möglich – Start ist am „Haus der Schwarzen Berge“ in Oberbach-Wildflecken.\u003c/p\u003e",
+      "dc:additionalInformation": [
+        {
+          "@id": "53226f32-ee51-4de7-be97-996514a72ba7",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "sameAs": "https://www.touren-rhoen.de/de/p/br-wandertouren-in-der-rhoen-2025/807369099/",
+      "image": [
+        {
+          "@id": "a1f8c820-6d02-427f-8362-19007add8c1b",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "5050096c-457e-44c6-b44c-fa0a5d354421",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "d7feff1c-c888-41ee-815e-f843e854df96",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sdLicense": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "copyrightNotice": "CC0",
+      "dc:slug": "br-wandertouren-2025-in-der-rhoen",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "71fa7b6e-149a-4176-944f-347f5744f2e8",
+          "value": 70.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "622bd27a-0870-4e07-a1db-091f48faa93f",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3e10dc5f-16cb-4b24-8ee4-bda525d39a4e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "40e44738-93dd-45a9-a87c-ac360912baab",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "015b8ca2-f09b-4fe6-a4fe-31209100ff80",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "34bc047f-cad7-408a-b63a-c538a28ce4e5",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e653014f-51cd-4c80-bc9f-0bdab2a4e0f2",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "561c1f66-aae1-4f01-a8c9-9e16c28a2ce3",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0d90826d-7f94-499f-b420-0a1ad5a1d51e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1505a066-836d-4584-8edb-42cde8a330a9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "7e8ffaf7-6cfa-4f8a-824f-9e8ba7985e12",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Sonderausstellung \"Bauernkrieg und Bauern\"",
+      "startDate": "2025-04-10T00:00:00.000+02:00",
+      "endDate": "2025-10-19T09:05:24.000+02:00",
+      "description": "\u003cp\u003eIn Münnerstadt formierte sich mit dem „Bildhäuser Haufen“ eine der großen aufständischen Gruppen des Bauernkriegs im Henneberger Land. Wie setzte sich dieser zusammen? Was waren die Ziele? Mit welcher Strategie ging man vor? Und in welcher Beziehung standen die Aufständischen zu anderen Akteuren?\u003c/p\u003e\u003cp\u003e---\u003c/p\u003e\u003cp\u003eKooperationsausstellungsprojekt\u003c/p\u003e\u003cp\u003eder Museen Heldburg, Kloster Veßra, Münnerstadt, Schmalkalden, Schleusingen\u003c/p\u003e\u003cp\u003e1525. Bauernkrieg im Henneberger Land\u003c/p\u003e\u003cp\u003eEin Ereignis – fünf Perspektiven\u003c/p\u003e\u003cp\u003eIm Frühjahr 1525 kam es in weiten Teilen Mitteleuropas zu Erhebungen gegen die Herrschenden, so auch in der Region zwischen Main und Werra, dem heutigen Südthüringen und Nordbayern. Dieser sogenannte Bauernkrieg prägte das kollektive Gedächtnis im deutschsprachigen Raum nachhaltig. Zum 500. Jahrestag gestalten fünf Museen des Henneberger Landes über die heutigen Landesgrenzen hinweg eine gemeinsame Kooperationsausstellung.\u003c/p\u003e\u003cp\u003eWährend die große thüringische Landesausstellung in Mühlhausen und Bad Frankenhausen die dortigen Ereignisse rund um den Reformator Thomas Müntzer in den Blick nimmt, werden hier von Museen in Thüringen und Unterfranken erstmals die Geschehnisse im hennebergisch-fränkischen Raum in ihrer ganzen Komplexität thematisiert.\u003c/p\u003e\u003cp\u003eDie Aufständischen – Bauern und Stadtbewohner – formierten sich in sogenannten Bauernhaufen und stellten Forderungen auf. Darin ging es um politische Teilhabe, soziale Gerechtigkeit und letztlich eine neue Gesellschaftsordnung. Ein radikaler Teil zerstörte Klöster und Burgen. Der Aufstand traf die regionalen Herrschaftsträger und selbst die Landesherren, wie Graf Wilhelm IV. von Henneberg und den Würzburger Fürstbischof Konrad II. von Thüngen, ins Mark.\u003c/p\u003e\u003cp\u003eReisen Sie durch die Museen des Henneberger Landes und erfahren Sie auf anschauliche Weise, wie hier vor 500 Jahren unterschiedliche Vorstellungen von Recht und Ordnung aufeinanderstießen, wie die unterschiedlichen Akteure die gewaltsamen Auseinandersetzungen erlebten und welche Folgen sie hatten.\u003c/p\u003e\u003cp\u003eBetrachten sie ein Ereignis aus fünf Perspektiven!\u003c/p\u003e",
+      "dc:additionalInformation": [
+        {
+          "@id": "7e1a741c-852b-4bea-aa19-cfa5cbf3cd41",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "sameAs": "https://www.bauernkrieg2025.de/de/veranstaltungen/sonderausstellung-bauernkrieg-und-bauern",
+      "image": [
+        {
+          "@id": "bb66f1cc-827b-4134-81ae-f3aa9a0cf23f",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "3343275e-90db-4bc3-871e-365bb9051bd1",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "50197458-b5d6-4f7f-ad95-bcb46c9cebde",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sdLicense": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "copyrightNotice": "CC0",
+      "dc:slug": "sonderausstellung-bauernkrieg-und-bauern",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "622bd27a-0870-4e07-a1db-3ac75b115406",
+          "value": 70.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "cae7c18e-f105-4dd3-bc59-c2390222a1f2",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e840b894-2089-4a9d-b6e2-70e1ed791330",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "b472aeee-f19a-443b-9bbd-ea0927f27287",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "dfe1493b-2e3a-462e-b156-bb89553c8a0a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "eee53dc3-63c3-4a25-a973-bca61dbd58e0",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "eae2632b-95f3-446a-8ada-def310daf22e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "df5f527b-b951-47f4-ad42-a75b126d8a19",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "434f3f6f-036f-4675-ba22-af3ee25dba73",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Regensburger Antikmarkt",
+      "startDate": "2025-06-08T09:00:00.000+02:00",
+      "endDate": "2025-06-08T17:00:00.000+02:00",
+      "description": "\u003cp\u003eIm Juni treffen sich die Freunde guter Antiquitäten und edlen Trödels in der wunderschönen Innenstadt von Regensburg. Die Weltkulturerbestadt Regensburg mit ihren ca. 150.000 Einwohnern und ihrem reichen Schatz an Baudenkmälern gilt zu Recht als eine der ältesten und auch schönsten Städte Deutschlands.\u003c/p\u003e \u003cp\u003eDie Marktzeit ist von 9.00 bis 17.00 Uhr. Die Marktflächen sind im Bereich der Fußgängerzone von Maximilianstraße, Schwarze Bärenstraße, Königstraße, Fröhliche-Türken-Straße, Weiße-Lilien-Gasse, Viereimerplatz, St.-Kassiansplatz, Pfauengasse, Drei-Helm-Gasse, Residenzstraße sowie der Neupfarrplatz. Diese Straßen und Plätze bieten etwa 380 Standplätze in schönem Ambiente. Die Standflächen sind in etwa zwei Minuten sowohl vom Bahnhof als auch vom Regensburger Dom zu erreichen. Auf den etwa 1.450 laufenden Metern Marktfläche präsentieren sich Händler aus ganz Deutschland, der Schweiz, Österreich, Ungarn, Tschechien, Niederlande, Frankreich und Belgien mit Antiquitäten und edlem Trödel – Biedermeier, Jugendstil, Art Deco, 50er, 60er und vieles mehr, umgeben vom schönen Ambiente in der historischen Fußgängerzone Regensburgs.\u003c/p\u003e \u003cp\u003eEs sind ausreichend Parkmöglichkeiten für Aussteller und Besucher vorhanden.\u003c/p\u003e",
+      "dc:additionalInformation": [
+        {
+          "@id": "3a8407de-d672-4797-a1d7-979d78ad3208",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "2ebf9c6d-2eb2-4075-80e4-c88a9d4bce93",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "image": [
+        {
+          "@id": "362ea79c-e1f2-4f77-b664-2267acf979bf",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "32c52a7a-7e11-4a5b-a5d1-5d981929ecd2",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "560b9d33-cb9b-4ccc-aa57-2cf4e1f4bff3",
+          "@type": "Schedule"
+        }
+      ],
+      "organizer": [
+        {
+          "@id": "32f8fa2b-12aa-4d29-b4a8-57a5ff8b4a82",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "potentialAction": [
+        {
+          "@id": "56e152e2-15da-4a6a-86fc-7202ae3bd23c",
+          "@type": "https://schema.datacycle.info/ExploreAction"
+        },
+        {
+          "@id": "12a80e18-4f08-409f-a9ee-22f3392ba78d",
+          "@type": "https://schema.org/OrderAction"
+        }
+      ],
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "b29b26b1-bcdf-4769-84b0-36cf0de23d3a",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Stadtmarketing",
+      "dc:slug": "regensburger-antikmarkt",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "cae7c18e-f105-4dd3-bc59-f1e111c95ccb",
+          "value": 100.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "feratelContentScore",
+          "name": "ContentScore (Feratel)",
+          "@id": "cae7c18e-f105-4dd3-bc59-cc3403d03ec3",
+          "value": 0.0
+        },
+        {
+          "@type": "PropertyValue",
+          "identifier": "contentScore",
+          "name": "ContentScore",
+          "@id": "cae7c18e-f105-4dd3-bc59-fc986f0fb44d",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "@id": "96c29952-ac2a-4bb5-a51c-deaa38b8008f",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "5a8fd3f9-02db-4e4f-bb27-04ce26a9606a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ef558212-c4e0-4652-adc7-15e21e96521e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e8b970f3-6e84-489d-a0ee-cc204ea677f1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "eee53dc3-63c3-4a25-a973-bca61dbd58e0",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4af7d670-1c89-4492-a234-3bbe4eff1409",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "2db595fc-c60d-46fe-85d1-a4da648910da",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f0a123f2-57a4-4472-a305-e4cadad2be94",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "9e126e14-8d31-4070-b4af-a937cc19054e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Kunstausstellung von Rolf Thuma",
+      "startDate": "2025-06-06T10:00:00.000+02:00",
+      "endDate": "2025-07-22T17:00:00.000+02:00",
+      "description": "\u003cp\u003eRolf Thuma \u003cb\u003e„Mit dem zweiten Blick sieht man mehr“\u003c/b\u003e\u003c/p\u003e\u003cp\u003eDer Künstler Rolf Thuma zeigt seine Werke ab 6. Juni täglich von 9-17 Uhr im Kurhaus Fiskina.\u003cbr\u003e\u003cb\u003eDie Vernissage findet am Freitag,\u0026nbsp;6. Juni\u0026nbsp;um 19.00 Uhr\u0026nbsp;statt.\u003c/b\u003e\u003c/p\u003e\u003cp\u003eIn entspannter Atmosphäre werden jeweils um 15 Uhr \u003cb\u003eFührungen durch die Ausstellung\u003c/b\u003e angeboten: Sonntag,\u0026nbsp;08.06., 22.06. und 20.07.2025. Der Eintritt ist frei.\u003c/p\u003e\u003cp\u003eMalen, zeichnen ist für Rolf Thuma pure Neugierde. Eine Idee führt zu einer anderen. Es passiert im Kopf. Man muss nur genau beobachten und genau zuhören. Seine Bilder stehen somit am Ende einer Gedankenkette, eines Plans. Kunst lädt zum Entdecken ein. Mit seinen Bildern möchte er Gedanken, Gefühle, Geschichten sichtbar machen, auf seine Weise: narrativ, reduziert und ironisch. Also nicht das Sichtbare abmalen, sondern einen Schritt weitergehen und Gedanken, Gefühle sichtbar machen und Geschichten erzählen. Zusammenfassend kann man es so erklären: Am Anfang war die Idee, die geht vom Kopf, über das Herz, durch die Hand auf die Leinwand.\u003cbr\u003e\u003cbr\u003eAuszeichnen konnte sich der Gmünder Künstler unter anderem als Finalist des artig-Kunstpreises in Kempten, Finalist des 6. Europäischen Künstlerwettbewerbs „Künstler entdecken Europa“ in Leverkusen sowie des internationalen Kunstwettbewerbs „ROT“ im Sauerland. Über seine Ausstellung „Kunst im Kofferraum“ berichtete das Fernsehen in der Landesschau Baden-Württemberg.\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003eVernissage: Freitag 06. 06. 2025 um 19 Uhr\u003cbr\u003eBegrüßung: Bürgermeister Bruno Sauter\u003cbr\u003eEinführung: Rolf Thuma\u003cbr\u003eMusikalische Umrahmung: „Fischinger Golfer Trio“\u003cbr\u003e\u003cbr\u003eÖffnungszeiten: Mo-So 09 – 17 Uhr\u003cbr\u003e\u003cbr\u003e\u003cu\u003e\u003ca href=\"https://www.rolf-thuma.de\"\u003ewww.rolf-thuma.de\u003c/a\u003e\u003c/u\u003e \u003cbr\u003e\u003c/p\u003e",
+      "dc:additionalInformation": [
+        {
+          "@id": "a8221a1f-26f9-4072-9368-7d1f4c2d8377",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "05caa124-75d2-4688-abe1-3ef3e2fd2d94",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "f39f0346-1820-4da1-a3b8-6d4167b8ae6c",
+          "@type": "Schedule"
+        }
+      ],
+      "organizer": [
+        {
+          "@id": "cafa3d85-391f-4b52-b4b8-7ee473dada80",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "3ec34c63-abf3-4994-9f94-2b251e7325a4",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismus Hörnerdörfer",
+      "dc:slug": "kunstausstellung-von-rolf-thuma",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "96c29952-ac2a-4bb5-a51c-ed722b53fdb6",
+          "value": 100.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "feratelContentScore",
+          "name": "ContentScore (Feratel)",
+          "@id": "96c29952-ac2a-4bb5-a51c-d0a7394a9fbe",
+          "value": 88.0
+        },
+        {
+          "@type": "PropertyValue",
+          "identifier": "contentScore",
+          "name": "ContentScore",
+          "@id": "96c29952-ac2a-4bb5-a51c-e00b55951530",
+          "value": 88.0
+        }
+      ]
+    },
+    {
+      "@id": "95f97eae-360e-4e35-b489-7e3084cc6672",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "5a8fd3f9-02db-4e4f-bb27-04ce26a9606a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "c69b8d72-5a06-4e9a-9c3c-5857c0c51b7a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "2f979504-6c12-4c76-aa3b-e777a0ed51b1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "eee53dc3-63c3-4a25-a973-bca61dbd58e0",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "eae2632b-95f3-446a-8ada-def310daf22e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "2db595fc-c60d-46fe-85d1-a4da648910da",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f0a123f2-57a4-4472-a305-e4cadad2be94",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "13b37d2a-8302-4c7b-a2c2-dc500862acd0",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Schnupper-Waldbad",
+      "startDate": "2025-02-19T10:15:00.000+01:00",
+      "endDate": "2025-06-24T17:15:00.000+02:00",
+      "description": "\u003cp\u003e\u003cb\u003eSCHNUPPER-WALDBAD\u003cbr\u003e\u003cbr\u003e\u003c/b\u003eDie positive Wirkung des Waldes kennenlernen? Zu sich selbst und seinen Sinnen finden? Den Alltag hinter sich lassen und den Kopf frei bekommen?\u003cbr\u003eEin Aufenthalt im Wald macht es möglich! Probiere es aus – beim Schnupper-Waldbad.\u003cbr\u003eTauche ein in das grüne Meer aus Bäumen und entdecke die Besonderheiten des Allgäuer Waldes und die Kraft der Sinneswahrnehmung.\u003cbr\u003e\u003cbr\u003e\u003cb\u003eWas erwartet Dich?\u003c/b\u003e\u003cbr\u003eTauche gemeinsam mit Wald-Gesundheitstrainer\u0026nbsp;Beate Kratzer\u0026nbsp;in den Allgäuer Wald ein. An einem ruhigen Platz im Wald, sollst Du durch leichte \u003cbr\u003eEntspannungsübungen, Dich ganz auf Dich selbst, und auf Deinen Körper konzentrieren. \u003cbr\u003eAchtsamskeitsübungen laden Dich dazu ein, den Wald mit all Deinen Sinnen wahrzunehmenund zu spüren. Ohne konkretes Ziel vor Augen wollen wir ganz „im Moment sein“.\u003cbr\u003e\u003cbr\u003e\u003cb\u003e\u003ci\u003eBeate Kratzer\u003c/i\u003e\u003c/b\u003e\u003ci\u003e ist zertifizierte Wald-Gesundheitstrainerin und absolvierte im April 2023 die Ausbildung beim Kneippärztebund e.V. in Bad Wörishofen. Für sie bedeutet der Wald Rückzugs- und Erholungsort, aber auch Lebensraum für Pflanzen und Tiere. Diesen besonderen Kraftort möchte sie mit ihren Waldbaden-Angeboten den Teilnehmenden näherbringen und mit allen Sinnen erleb- und spürbar machen.\u003c/i\u003e \u003cbr\u003e\u003cbr\u003e\u003cb\u003eEine Anmeldung ist erforderlich!\u003c/b\u003e Entweder online oder am Schalter einer unserer Tourist-Informationen.\u003c/p\u003e",
+      "dc:additionalInformation": [
+        {
+          "@id": "24be57a6-52dc-4c18-b9ef-34a976c55321",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "4e69adf6-1234-42c3-9221-2e56788932fe",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "469ece87-eb5f-47d1-bdaa-88032288a180",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "7411dfcd-66d2-48c6-b3b9-94f3723f8a4b",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "8310246a-3ed7-49fe-88d5-f2d5f8beb89e",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "6357ac26-6f7f-46c4-92e2-9ca765e4a32a",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "22b89ed0-fa38-4072-a305-f52554fd9b57",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "490723db-ed90-4097-a810-5e8b6a24f1ca",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "image": [
+        {
+          "@id": "14949997-e597-430e-90f3-def20c7782eb",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ]
+        },
+        {
+          "@id": "0ea94c0f-18d6-4cc7-be40-968e50770598",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "613e59d3-c22e-4772-b9aa-45273c084612",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "54e9dbeb-3fc7-42dd-b9c6-1b1f8a0dd664",
+          "@type": "Schedule"
+        },
+        {
+          "@id": "47975fb5-0076-463d-b649-bf9317768bc0",
+          "@type": "Schedule"
+        },
+        {
+          "@id": "9a23b784-035b-4e4a-9436-5e657b18cd16",
+          "@type": "Schedule"
+        },
+        {
+          "@id": "2b98c92c-2222-42f7-aeea-3c8d19387857",
+          "@type": "Schedule"
+        },
+        {
+          "@id": "f48a9b1f-accc-4f4a-b684-31032d3b0b29",
+          "@type": "Schedule"
+        },
+        {
+          "@id": "4d641136-c11f-4f45-a62d-69cb6cfd49bc",
+          "@type": "Schedule"
+        }
+      ],
+      "organizer": [
+        {
+          "@id": "a87583e9-b356-42a0-b3b0-0fea67d30167",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "potentialAction": [
+        {
+          "@id": "fb8c8500-f87e-428c-ad7a-928429d9d254",
+          "@type": "https://schema.datacycle.info/ExploreAction"
+        },
+        {
+          "@id": "3f1fdd11-4ff7-4a4f-a773-4afa027ad133",
+          "@type": "https://schema.org/OrderAction"
+        }
+      ],
+      "dc:linkedThing": [
+        {
+          "@id": "ce81d511-5396-40b1-817f-d1c7894957fd",
+          "@type": [
+            "Intangible",
+            "dcls:Service"
+          ]
+        }
+      ],
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "3aa70bdb-640b-4de1-bf84-bcf1cb2c5ce5",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Oberstaufen Tourismus Marketing GmbH",
+      "dc:slug": "schnupper-waldbad-1",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "95f97eae-360e-4e35-b489-4de897279b4b",
+          "value": 100.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "feratelContentScore",
+          "name": "ContentScore (Feratel)",
+          "@id": "95f97eae-360e-4e35-b489-703d853ef943",
+          "value": 75.5
+        },
+        {
+          "@type": "PropertyValue",
+          "identifier": "contentScore",
+          "name": "ContentScore",
+          "@id": "95f97eae-360e-4e35-b489-4091e9e173cd",
+          "value": 75.5
+        }
+      ]
+    },
+    {
+      "@id": "509863db-52f2-4c21-9280-d9d23ab5d4d9",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e840b894-2089-4a9d-b6e2-70e1ed791330",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "b472aeee-f19a-443b-9bbd-ea0927f27287",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "dfe1493b-2e3a-462e-b156-bb89553c8a0a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "eee53dc3-63c3-4a25-a973-bca61dbd58e0",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "eae2632b-95f3-446a-8ada-def310daf22e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "df5f527b-b951-47f4-ad42-a75b126d8a19",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "434f3f6f-036f-4675-ba22-af3ee25dba73",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Kein roter Faden - Galakonzert im Thon-Dittmer-Palais",
+      "startDate": "2025-07-01T19:30:00.000+02:00",
+      "endDate": "2025-07-01T19:30:00.000+02:00",
+      "description": "Ein ganz persönliches Galakonzert von und mit\u0026nbsp;Ilonka Vöckel (Sopran), Juan Carlos Falcón (Tenor) und Daniel Gutmann (Bariton) mit Salonorchester und Band\u003cbr\u003e\u003cbr\u003eVon Mozart bis Sina\u0026shy;tra: Die drei Sänger prä\u0026shy;sen\u0026shy;tieren ih\u0026shy;re Lieblingsstücke und bringen mit viel Witz, Charme und Herz alles auf die Bühne, was sie bewegt. Gro\u0026shy;ße Opernarien, be\u0026shy;schwing\u0026shy;te Ever\u0026shy;\u0026shy;greens,\u0026nbsp;mitrei\u0026shy;ßende Mu\u0026shy;\u0026shy;\u0026shy;sical\u0026shy;num\u0026shy;mern, Operettenduette und mehr. Jeder Titel ist sorgsam ge\u0026shy;wählt – das spürt man, das hört man.\u003cbr\u003eAm 1. Juli im Arkadenhof des Thon-Dittmer-Palais\u0026nbsp;führen sie selbst durch ihren Abend, necken sich, fordern sich, ergänzen sich. Unterstützt wer\u0026shy;den sie von einem Salonorchester und Daniels Band\u0026nbsp;The Groovecake Fac\u0026shy;tory.\u0026nbsp;Ein Abend zum Lachen, Stau\u0026shy;nen, Mit\u0026shy;schwingen und Mit\u0026shy;fühlen – leicht, lebendig und voller Liebe zur Musik.",
+      "dc:additionalInformation": [
+        {
+          "@id": "ad43cfff-1169-4eaa-94cd-31b6f152543c",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "03cac115-64d5-4e07-adbd-167f2ea45444",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "image": [
+        {
+          "@id": "0427f86f-8421-4489-8c85-f721698c8992",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "4d590e75-0593-4df3-b4a4-4972598c3f02",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "c152b59d-668b-4043-a619-86dcf88c4696",
+          "@type": "Schedule"
+        }
+      ],
+      "organizer": [
+        {
+          "@id": "f2837d70-d1f1-4295-a0fc-a6638afdeb96",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "potentialAction": [
+        {
+          "@id": "f7f42101-74b8-47d6-94cc-d79ba52f67e8",
+          "@type": "https://schema.datacycle.info/ExploreAction"
+        },
+        {
+          "@id": "8d266179-d799-41d8-a5a5-90fa7cee2e72",
+          "@type": "https://schema.org/OrderAction"
+        }
+      ],
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "73deb3ae-da1e-42e4-88da-0676c9ec7277",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Die Kulturoptimisten",
+      "dc:slug": "kein-roter-faden-galakonzert-im-thon-dittmer-palais-1",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "509863db-52f2-4c21-9280-ea0a295e29e0",
+          "value": 100.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "feratelContentScore",
+          "name": "ContentScore (Feratel)",
+          "@id": "509863db-52f2-4c21-9280-d7df3b474be8",
+          "value": 0.0
+        },
+        {
+          "@type": "PropertyValue",
+          "identifier": "contentScore",
+          "name": "ContentScore",
+          "@id": "509863db-52f2-4c21-9280-e7735798c166",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "@id": "b71036d8-f70a-4c09-bdbd-a8b18a62254b",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fdf9f6d7-13e9-4a08-918e-a2261210e14c",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b57eb11-2916-4aa6-9789-23d1dee612fe",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "6d049cb1-cdcc-4d78-8934-1f25bc78b7e7",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d7e96299-ea5d-49a0-bd30-97b2fc3cba4b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "633b78af-3926-42c5-80dc-95397e7f57d1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "5fa62fd1-d2db-4647-a236-f06796cd51d0",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Vorlese- und Bastelaktionen zur \"Nacht der Sinne\"",
+      "startDate": "2025-05-10T16:00:00.000+02:00",
+      "endDate": "2025-05-10T23:00:00.000+02:00",
+      "dc:additionalInformation": [
+        {
+          "@id": "08dc003b-d7ef-4dbc-b406-be8d707410d1",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "bb6754c2-0df5-4042-b14c-b8f0b22c7bef",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "363bc905-3ef9-4914-8772-4df62fd78ad6",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "e4f51237-72ec-48e5-b48a-69bf9e919588",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "vorlese-und-bastelaktionen-zur-nacht-der-sinne",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "b71036d8-f70a-4c09-bdbd-9b699989d872",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "f94c0ea9-ab01-4b17-bd99-cd52b25c6df7",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fdf9f6d7-13e9-4a08-918e-a2261210e14c",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fbd9a2c2-4d80-44ee-8143-23d376db93f0",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bd663f03-bf7f-4ec2-834f-25cc2ee5c6d6",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc14028d-be11-44da-92fb-17b2cf98e8f2",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ae4909fa-247a-4038-899c-f199ed48a876",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d7e96299-ea5d-49a0-bd30-97b2fc3cba4b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "633b78af-3926-42c5-80dc-95397e7f57d1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4ff96298-6798-475b-9764-e77bcb1cc701",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Offenes Ohr",
+      "startDate": "2025-06-02T08:30:00.000+02:00",
+      "endDate": "2025-06-02T10:00:00.000+02:00",
+      "location": [
+        {
+          "@id": "b9e3f51c-40ad-4325-9cb1-30d8f0b915cb",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "6f5b1998-78fc-4cd9-ad3d-b46fd8c1a38d",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "offenes-ohr",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "f94c0ea9-ab01-4b17-bd99-fe8aa1b790ce",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "a41bddfa-f775-48bc-a9a2-3d0ecdc1a4b6",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "54550ae1-a66b-4c02-823c-a47be7f3e413",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "77a8e013-c1b4-497c-aec4-3317aa77505e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ef7c12d7-c277-4b09-9b1b-2be71f56d661",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3b33c56c-2072-40ea-874f-a6516a02098b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "314f30f1-42ea-4f76-9e70-da489fb63264",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f72cf280-4fb9-44e5-ad5e-bbfb7320b86d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "db9cc678-3168-41c7-9888-dcab546c2a22",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d708f82f-3e46-4316-ba9b-c8e7c5e578e6",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0103979b-a498-444e-8392-938baa2e9863",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f99fc61c-0037-43ca-a11c-a3b5e3855e3a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Letzter Glasurtermin / Abholen von gebrannten Werken",
+      "startDate": "2025-11-02T13:00:00.000+01:00",
+      "endDate": "2025-11-02T17:00:00.000+01:00",
+      "dc:additionalInformation": [
+        {
+          "@id": "06d51e88-c3c7-4f46-8e9d-ca9cc3365699",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "21d58226-10b5-491b-8576-c381f04054a3",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "130d8332-68c8-41f4-a710-b419ca683c62",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "letzter-glasurtermin-abholen-von-gebrannten-werken",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "a41bddfa-f775-48bc-a9a2-0ed6de2a598f",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "762df687-0ce7-4794-b22f-b183b78fc497",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "54550ae1-a66b-4c02-823c-a47be7f3e413",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "77a8e013-c1b4-497c-aec4-3317aa77505e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ef7c12d7-c277-4b09-9b1b-2be71f56d661",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d5a25a34-4f18-43ac-8afd-5f777ab735e1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "5bc51495-6f76-459c-b9d7-5f77e0e1362d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "314f30f1-42ea-4f76-9e70-da489fb63264",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f72cf280-4fb9-44e5-ad5e-bbfb7320b86d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "db9cc678-3168-41c7-9888-dcab546c2a22",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d708f82f-3e46-4316-ba9b-c8e7c5e578e6",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0103979b-a498-444e-8392-938baa2e9863",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f99fc61c-0037-43ca-a11c-a3b5e3855e3a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Engel aus Ton",
+      "startDate": "2025-10-03T13:00:00.000+02:00",
+      "endDate": "2025-10-03T17:00:00.000+02:00",
+      "dc:additionalInformation": [
+        {
+          "@id": "5e94990d-129a-4848-a6ba-257ca94c89e6",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "21d58226-10b5-491b-8576-c381f04054a3",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "de5d42fa-a9da-4e19-893b-8efebe41c563",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "engel-aus-ton",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "762df687-0ce7-4794-b22f-825ba46439ae",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "0c870c37-9aac-4831-8571-3df9f8bead23",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "54550ae1-a66b-4c02-823c-a47be7f3e413",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "77a8e013-c1b4-497c-aec4-3317aa77505e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ef7c12d7-c277-4b09-9b1b-2be71f56d661",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d5a25a34-4f18-43ac-8afd-5f777ab735e1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "5bc51495-6f76-459c-b9d7-5f77e0e1362d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "314f30f1-42ea-4f76-9e70-da489fb63264",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f72cf280-4fb9-44e5-ad5e-bbfb7320b86d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "db9cc678-3168-41c7-9888-dcab546c2a22",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d708f82f-3e46-4316-ba9b-c8e7c5e578e6",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0103979b-a498-444e-8392-938baa2e9863",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f99fc61c-0037-43ca-a11c-a3b5e3855e3a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Traumfänger aus Ton",
+      "startDate": "2025-09-21T13:00:00.000+02:00",
+      "endDate": "2025-09-21T17:00:00.000+02:00",
+      "dc:additionalInformation": [
+        {
+          "@id": "99ab032d-4ffc-4499-b43e-092b9363bda6",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "21d58226-10b5-491b-8576-c381f04054a3",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "af2806c0-daae-42eb-8034-9531c6c8d6b4",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "traumfaenger-aus-ton",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "0c870c37-9aac-4831-8571-0e21eb55501a",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "9ff8b8c1-471e-4727-a3ea-934ba18eb5bb",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fdf9f6d7-13e9-4a08-918e-a2261210e14c",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "37485cd7-f1bd-4029-9c6e-732bf2a4c7a7",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bd663f03-bf7f-4ec2-834f-25cc2ee5c6d6",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc14028d-be11-44da-92fb-17b2cf98e8f2",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d7e96299-ea5d-49a0-bd30-97b2fc3cba4b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "633b78af-3926-42c5-80dc-95397e7f57d1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "669ae795-34a5-462e-8cb4-b884c1b45de2",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Vereinsinterner Nachkirta im Schützenheim Anger - Schützenverein \"Brüder vom Rauschtal\" Anger",
+      "startDate": "2025-06-10T17:00:00.000+02:00",
+      "endDate": "2025-06-10T23:59:59.000+02:00",
+      "location": [
+        {
+          "@id": "a0979414-fd36-4003-a129-79c6aeb9a36a",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "354f6d03-7018-466c-8b78-715d8fab04b6",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "vereinsinterner-nachkirta-im-schuetzenheim-anger-schuetzenverein-brueder-vom-rauschtal-anger",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "9ff8b8c1-471e-4727-a3ea-a093b2654882",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "7b850ece-91be-4b32-bbb6-3c14e30d3c4e",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "649e8491-b5da-49dc-a378-b7668c999d0a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1ab8e246-bd25-4827-8c17-699b3be47195",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "836f81f9-b303-4ca3-a837-4434ea0ae75a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc14028d-be11-44da-92fb-17b2cf98e8f2",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "59ff938d-41ed-42d1-aecc-61d8e5873e2d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ff50d2fc-e857-4af5-9074-3f113a922c67",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e5462405-a670-4cc7-85e9-9db6446d5b20",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Indie - Rock DJ Night",
+      "startDate": "2025-05-16T20:00:00.000+02:00",
+      "endDate": "2025-05-16T23:59:59.000+02:00",
+      "dc:additionalInformation": [
+        {
+          "@id": "01725f4a-cd05-4e32-9f0a-336d73d0d35a",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "50a8866a-a8f3-4d31-bf5c-1cc74016366d",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "fc2384a9-3cf5-431e-8cbd-8d841bade279",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "indie-rock-dj-night",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "7b850ece-91be-4b32-bbb6-0fccf0e6c177",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "60204b4c-1e6a-40b9-b437-073ec152c842",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "5ff82784-364f-481a-9410-851c3e62fbaf",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "9dafabc5-293e-4293-b99e-bd323051e006",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "66fcb692-d3f4-415b-adee-a3159c279dc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ae4909fa-247a-4038-899c-f199ed48a876",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d7e96299-ea5d-49a0-bd30-97b2fc3cba4b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bfb5ef04-cdf2-499d-b016-a1c535a04a8e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "5120741a-2296-4299-8e40-6863db5a3d9f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Musik in der Stadt - das Mandolinenorchester Girgner Nürnberg",
+      "startDate": "2025-08-10T14:00:00.000+02:00",
+      "endDate": "2025-08-10T15:00:00.000+02:00",
+      "dc:additionalInformation": [
+        {
+          "@id": "799366e1-2ca4-494b-ab08-73188180a261",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "9c168c91-8c42-41a5-9c7b-8d90d0024faa",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "0eea824b-df4d-4269-a963-39a4a330a12d",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "8aef0d2f-db6f-4d4b-a71d-8c9c6ae9fbd8",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "musik-in-der-stadt-das-mandolinenorchester-girgner-nuernberg-1",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "60204b4c-1e6a-40b9-b437-34e6d2b9357b",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "7e40bfd1-6514-4ab0-97d1-d256d6d83ec2",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "2f166f14-fe98-4679-8df3-74b8be3ecb54",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "9436bc9b-bf8d-4250-914d-71e1934d6d2f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "7b4f2cc8-ac3f-4eb7-83fa-bf8e7c298ff6",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f31492d5-634f-428a-ba34-28085753bd6f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e071f4fe-3c5c-411b-a80b-1cf190f6ff51",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "59ff938d-41ed-42d1-aecc-61d8e5873e2d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc9b8bbb-c200-4389-aac8-e452164d6cb1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "030cba9d-3446-47d7-ab46-6512875fb8b5",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Weinfest DJK Pressath e.V.",
+      "startDate": "2025-07-26T00:00:00.000+02:00",
+      "endDate": "2025-07-26T23:59:59.000+02:00",
+      "dc:additionalInformation": [
+        {
+          "@id": "5ad3a01b-eef7-4481-a64c-56f887ae14cc",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "ed43fce0-375d-4f45-aef2-18b60878d356",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "bd204936-2a46-47fd-bd4f-11aca5f355e7",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "weinfest-djk-pressath-e-v",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "7e40bfd1-6514-4ab0-97d1-e18ec533c3fb",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "28fb08c5-6e5a-4366-aab2-576ac6c1eb48",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4e1b772b-6802-4789-bd59-e0c42b3f2677",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "acf91e0d-f9c4-41d7-b25a-607a52192657",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "84e1a497-cc35-4b5d-af75-38f8a72a1c9f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d708f82f-3e46-4316-ba9b-c8e7c5e578e6",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "cc97fbb6-9a23-45a5-bc53-577dd6576859",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "5f116d62-a219-4069-91b8-cf4b350ee87f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Sindiso Benefizlauf",
+      "startDate": "2025-09-14T11:00:00.000+02:00",
+      "endDate": "2025-09-14T23:59:59.000+02:00",
+      "location": [
+        {
+          "@id": "e79b2142-70f0-4c47-bc22-236e2a2788ec",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "d28fcade-d06e-491a-897d-3e3e27bf2261",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "sindiso-benefizlauf",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "28fb08c5-6e5a-4366-aab2-64b2d52a1671",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "7f21bb68-15b7-4b06-845d-b4f51831fbc3",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "54550ae1-a66b-4c02-823c-a47be7f3e413",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "77a8e013-c1b4-497c-aec4-3317aa77505e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ef7c12d7-c277-4b09-9b1b-2be71f56d661",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3fc48759-92f0-4c85-8d5b-66cf1f2d964e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "314f30f1-42ea-4f76-9e70-da489fb63264",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f72cf280-4fb9-44e5-ad5e-bbfb7320b86d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0735e3f0-eeef-46b6-9c17-faf167fd4e2f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "73616b08-804b-4bf7-acbc-651e5568f8a1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "db9cc678-3168-41c7-9888-dcab546c2a22",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d708f82f-3e46-4316-ba9b-c8e7c5e578e6",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0103979b-a498-444e-8392-938baa2e9863",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f99fc61c-0037-43ca-a11c-a3b5e3855e3a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Kräuterführung am Ziegel- und Kalk Museum Flintsbach und frisches Brot aus dem Steinbackofen",
+      "startDate": "2025-05-25T14:00:00.000+02:00",
+      "endDate": "2025-05-25T16:00:00.000+02:00",
+      "dc:additionalInformation": [
+        {
+          "@id": "eafcc93f-b685-4a86-8583-3aaa4239aff9",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "21d58226-10b5-491b-8576-c381f04054a3",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "17d5cc8b-a875-47c3-b700-5a31eab74727",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "kraeuterfuehrung-am-ziegel-und-kalk-museum-flintsbach-und-frisches-brot-aus-dem-steinbackofen-5",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "7f21bb68-15b7-4b06-845d-872d0bda06fa",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "078f394f-7002-4115-910f-ac857084d87c",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "54550ae1-a66b-4c02-823c-a47be7f3e413",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "77a8e013-c1b4-497c-aec4-3317aa77505e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ef7c12d7-c277-4b09-9b1b-2be71f56d661",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3fc48759-92f0-4c85-8d5b-66cf1f2d964e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "314f30f1-42ea-4f76-9e70-da489fb63264",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f72cf280-4fb9-44e5-ad5e-bbfb7320b86d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0735e3f0-eeef-46b6-9c17-faf167fd4e2f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "73616b08-804b-4bf7-acbc-651e5568f8a1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "db9cc678-3168-41c7-9888-dcab546c2a22",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d708f82f-3e46-4316-ba9b-c8e7c5e578e6",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0103979b-a498-444e-8392-938baa2e9863",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f99fc61c-0037-43ca-a11c-a3b5e3855e3a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Kräuterführung am Ziegel- und Kalk Museum Flintsbach und frisches Brot aus dem Steinbackofen",
+      "startDate": "2025-08-31T14:00:00.000+02:00",
+      "endDate": "2025-08-31T16:00:00.000+02:00",
+      "dc:additionalInformation": [
+        {
+          "@id": "bd0ec8ac-4f45-418f-ad94-4c518ac26486",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "21d58226-10b5-491b-8576-c381f04054a3",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "eebc3e7f-9346-4383-9927-4dad729764a8",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "kraeuterfuehrung-am-ziegel-und-kalk-museum-flintsbach-und-frisches-brot-aus-dem-steinbackofen-4",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "078f394f-7002-4115-910f-9f5d636f2545",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "2dd34154-ddae-440d-abdd-2a82cc45ad94",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "54550ae1-a66b-4c02-823c-a47be7f3e413",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "77a8e013-c1b4-497c-aec4-3317aa77505e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ef7c12d7-c277-4b09-9b1b-2be71f56d661",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d5a25a34-4f18-43ac-8afd-5f777ab735e1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "5bc51495-6f76-459c-b9d7-5f77e0e1362d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "314f30f1-42ea-4f76-9e70-da489fb63264",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f72cf280-4fb9-44e5-ad5e-bbfb7320b86d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "db9cc678-3168-41c7-9888-dcab546c2a22",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d708f82f-3e46-4316-ba9b-c8e7c5e578e6",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0103979b-a498-444e-8392-938baa2e9863",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f99fc61c-0037-43ca-a11c-a3b5e3855e3a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "\"Die goldene Kelle von Flintsbach\"",
+      "startDate": "2025-09-07T13:00:00.000+02:00",
+      "endDate": "2025-09-07T17:00:00.000+02:00",
+      "dc:additionalInformation": [
+        {
+          "@id": "f2d39187-13ac-412a-8ced-1adb71fd9879",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "21d58226-10b5-491b-8576-c381f04054a3",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "60b8ead1-86ed-4aa6-b3d7-548fd231a41f",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "die-goldene-kelle-von-flintsbach",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "2dd34154-ddae-440d-abdd-195adfae50ad",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "47ecf559-71f9-4c66-9b3c-f52776534eab",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "5ff82784-364f-481a-9410-851c3e62fbaf",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "903312f1-5c55-4f5a-8ce1-5a35594dba6e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "66fcb692-d3f4-415b-adee-a3159c279dc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "b81733b9-7d75-46d5-b94d-7057971effd3",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bfb5ef04-cdf2-499d-b016-a1c535a04a8e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "428c76ad-5733-4db9-8076-dc0b85491552",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Musikalischer Genuss",
+      "startDate": "2025-07-24T15:00:00.000+02:00",
+      "endDate": "2025-07-24T17:00:00.000+02:00",
+      "dc:additionalInformation": [
+        {
+          "@id": "ee4f3375-660e-4133-9a13-04e5a91289ba",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "1ae25d35-3cd7-4383-bf44-86a0ffa998c3",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "9746482c-385d-4d67-9651-b954ee9993e5",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "07bf0e48-0b6c-4458-ac86-ea8e183274d7",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "musikalischer-genuss",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "47ecf559-71f9-4c66-9b3c-c6ff65b8b392",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "37612354-734f-4c75-8459-13cf07340a56",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fdf9f6d7-13e9-4a08-918e-a2261210e14c",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e193b161-12e0-46f0-8717-f50f513f1905",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bd663f03-bf7f-4ec2-834f-25cc2ee5c6d6",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d7e96299-ea5d-49a0-bd30-97b2fc3cba4b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "633b78af-3926-42c5-80dc-95397e7f57d1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "de476ac3-ee46-4301-aa80-da3b0a4f9a43",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Rockomotive Breath",
+      "startDate": "2025-05-10T19:00:00.000+02:00",
+      "endDate": "2025-05-10T23:59:59.000+02:00",
+      "dc:additionalInformation": [
+        {
+          "@id": "08337e27-f91e-4e74-88d8-7e97788c6155",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "b87b9754-ef4e-4b45-8c21-20924835fcb7",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "dc7c7fe0-ba36-4a51-b84a-42ea18b68b90",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "rockomotive-breath",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "37612354-734f-4c75-8459-201714dff76f",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "e465a0d3-5dee-42d0-a080-5a71b8ec7e6a",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "54550ae1-a66b-4c02-823c-a47be7f3e413",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "77a8e013-c1b4-497c-aec4-3317aa77505e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ef7c12d7-c277-4b09-9b1b-2be71f56d661",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3fc48759-92f0-4c85-8d5b-66cf1f2d964e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "314f30f1-42ea-4f76-9e70-da489fb63264",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f72cf280-4fb9-44e5-ad5e-bbfb7320b86d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0735e3f0-eeef-46b6-9c17-faf167fd4e2f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "73616b08-804b-4bf7-acbc-651e5568f8a1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "db9cc678-3168-41c7-9888-dcab546c2a22",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d708f82f-3e46-4316-ba9b-c8e7c5e578e6",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0103979b-a498-444e-8392-938baa2e9863",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f99fc61c-0037-43ca-a11c-a3b5e3855e3a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Kräuterführung am Ziegel- und Kalk Museum Flintsbach und frisches Brot aus dem Steinbackofen",
+      "startDate": "2025-06-29T14:00:00.000+02:00",
+      "endDate": "2025-06-29T16:00:00.000+02:00",
+      "dc:additionalInformation": [
+        {
+          "@id": "ce3fe708-72b2-4463-adbb-e51cb7686266",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "21d58226-10b5-491b-8576-c381f04054a3",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "7e9ae100-bd61-4f52-9593-511b41b9350e",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "kraeuterfuehrung-am-ziegel-und-kalk-museum-flintsbach-und-frisches-brot-aus-dem-steinbackofen-3",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "e465a0d3-5dee-42d0-a080-69a9ab078353",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "98604912-c6e9-4e07-b2c9-190f853ae739",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "7174f7a6-1b84-4efa-b66e-57942b093326",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f4087930-2009-4e5d-afc7-6664c4f018a0",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3c8b40c-fad0-47fa-9a64-51aa1a8e4e18",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d708f82f-3e46-4316-ba9b-c8e7c5e578e6",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fe51842a-c1ca-4da8-8f6a-4f2680c39526",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "5151ac3c-74b2-4389-b590-86364cd1d3c7",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Kräuterführung - Wildkräuter für Küche \u0026 Hausapotheke",
+      "startDate": "2025-06-01T09:00:00.000+02:00",
+      "endDate": "2025-06-01T12:00:00.000+02:00",
+      "dc:additionalInformation": [
+        {
+          "@id": "66bdc372-52b6-40ce-9848-6dec49658b95",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "a0b65eda-ed99-47bc-a75c-14da529d105a",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "30c1ae98-062c-424b-a754-57d8e16099e1",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "kraeuterfuehrung-wildkraeuter-fuer-kueche-hausapotheke",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "98604912-c6e9-4e07-b2c9-2ad796d11a00",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "3ee050bf-fc1d-4144-ae14-06f887c24f59",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "18adaf5f-f459-4167-98a8-28a68419fd05",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d2f663f6-0502-4a53-81ad-1f5f27804cc8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "7174f7a6-1b84-4efa-b66e-57942b093326",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "e6e68052-56f2-4b21-a7ae-45364d16851e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bbcc764d-4381-4224-bb28-ce463283699b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "32512f12-6177-49b1-91cd-0e00dde25929",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3512a355-a6da-4161-a4aa-b0b266f1c098",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f4087930-2009-4e5d-afc7-6664c4f018a0",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0d9103eb-fd1c-4179-867a-8e29e88dac71",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d708f82f-3e46-4316-ba9b-c8e7c5e578e6",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4b714f36-dd2f-420a-b408-66f381fcfc39",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fe51842a-c1ca-4da8-8f6a-4f2680c39526",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "5151ac3c-74b2-4389-b590-86364cd1d3c7",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "92baf6bf-f3e1-4b3f-bba2-3db4ae8ad87a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Kreative Ausdrucksmöglichkeiten mit Naturmaterialien",
+      "startDate": "2025-05-26T18:30:00.000+02:00",
+      "endDate": "2025-05-26T20:30:00.000+02:00",
+      "dc:additionalInformation": [
+        {
+          "@id": "c1d6ca08-e500-4070-a241-3141cdae6ee9",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "a0b65eda-ed99-47bc-a75c-14da529d105a",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "8eeb153c-80ae-4989-8ad1-153ab7608f75",
+          "@type": "Schedule"
+        }
+      ],
+      "cc:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sdPublisher": [
+        {
+          "@id": "6e611534-6451-4d9b-aed5-d75e13bf0f63",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "CC BY-SA 4.0 Tourismusverband Ostbayern e.V.",
+      "dc:slug": "kreative-ausdrucksmoeglichkeiten-mit-naturmaterialien",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "3ee050bf-fc1d-4144-ae14-35209429b260",
+          "value": 63.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "total": 14607,
+    "pages": 585,
+    "collection": {
+      "id": "b9fa2a8f-5f0e-4da3-82f2-2f46d13b632b",
+      "name": "Open Data Veranstaltungen",
+      "slug": "list_events"
+    }
+  },
+  "links": {
+    "next": "https://data.bayerncloud.digital/api/v4/endpoints/list_events?page%5Bnumber%5D=2\u0026page%5Bsize%5D=25\u0026token=3a7db0eb2166cc468504c6156943e379"
+  }
+}
