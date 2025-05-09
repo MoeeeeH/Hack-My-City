@@ -49,11 +49,13 @@ def get_events(lat: Optional[float] = Query(None), lon: Optional[float] = Query(
 
 
     if lat is not None and lon is not None:
+        print(f"User coordinates: {lat}, {lon}")
         user_coords = (lat, lon)
         for event in events:
             if "latitude" in event and "longitude" in event:
                 event_coords = (event["latitude"], event["longitude"])
                 event["user_distance"] = round(calculate_distance(user_coords, event_coords), 2)
+                print(f"Distance to {event['name']}: {event['user_distance']} km")
 
     return all_events
 
