@@ -2,8 +2,8 @@ from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 import json
 from dotenv import load_dotenv
-from true import TrueRelevanceDataSource
 from water import WaterDataSource
+from true import TrueRelevanceDataSource
 from typing import Optional
 from calculate_distance import load_events, calculate_distance, find_nearby_events
 
@@ -24,8 +24,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-trueRelevanceDataSource = TrueRelevanceDataSource()
 waterDataSource = WaterDataSource()
+trueRelevanceDataSource = TrueRelevanceDataSource()
 
 with open("events.json", "r", encoding="utf-8") as f:
     events = json.load(f)
