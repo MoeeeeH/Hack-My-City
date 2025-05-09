@@ -1,4 +1,5 @@
 from openai import AzureOpenAI
+import time
 
 import requests
 import os
@@ -83,6 +84,7 @@ class TrueRelevanceDataSource:
             j += 1
 
             self.events.append(event)
+            time.sleep(1)
 
     def location_for_description(self, desc: str):
         completion = self.open_aiclient.chat.completions.create(
