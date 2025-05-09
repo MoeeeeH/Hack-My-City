@@ -88,7 +88,7 @@ class TrueRelevanceDataSource:
         completion = self.open_aiclient.chat.completions.create(
           model="gpt-4.1-mini",
           messages=[
-                {"role": "user", "content": "Suche die genauen Adressen aus dem folgenden Text. Gib mir für jede Adresse die Straße und Hausnummer. Wenn mehrere Adressen gefunden werden gib mir, die am wahrschenlichsten gemeint ist. hier ist der text: " + desc},
+                {"role": "user", "content": "search the streetname and the house number if possible, if there are more than one pick the one that's mentioned the most. Just give me name no formatting: " + desc},
           ]
         )
         return completion.choices[0].message.content
