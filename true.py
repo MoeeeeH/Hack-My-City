@@ -1,4 +1,4 @@
-from openai import OpenAI
+from openai import AzureOpenAI
 
 import requests
 import os
@@ -16,8 +16,10 @@ class TrueRelevanceDataSource:
         self.client_id = os.getenv("CF_ACCESS_CLIENT_ID")
         self.client_secret = os.getenv("CF_ACCESS_SECRET_KEY")
         self.events: list[EventModel] = []
-        self.open_aiclient = OpenAI(
-          api_key=os.getenv("OPENAI_API_KEY"),
+        self.open_aiclient = AzureOpenAI(
+            api_key=os.getenv("AZURE_OPENAI_API_KEY"),  
+            api_version="2024-07-01-preview",
+            azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
         )
 
     def get_data(self):
@@ -36,7 +38,7 @@ class TrueRelevanceDataSource:
             "embedding_weight":0.4,
             "image_caption_text":"Landau an der Isar",
             "image_caption_weight":0.2,
-            "knn":100,
+            "knn":500,
             "sentiment":-10,
             "sentiment_operator":">",
             "time_filter_start":"2019-12-31T23:00:00.000Z",
@@ -86,7 +88,7 @@ class TrueRelevanceDataSource:
         completion = self.open_aiclient.chat.completions.create(
           model="gpt-4.1-mini",
           messages=[
-                {"role": "user", "content": "Suche die genauen Adressen aus dem folgenden Text. Schreibe alle adressen mit Straße Hausnummer mit Kommma getrennt ohne weitere Formatierung. hier ist der text: " + desc},
+                {"role": "user", "content": "Suche die genauen Adressen aus dem folgenden Text. Gib mir für jede Adresse die Straße und Hausnummer. Wenn mehrere Adressen gefunden werden gib mir, die am wahrschenlichsten gemeint ist. hier ist der text: " + desc},
           ]
         )
         return completion.choices[0].message.content

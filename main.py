@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import json
 from dotenv import load_dotenv
 from true import TrueRelevanceDataSource
+from water import WaterDataSource
 
 load_dotenv()
 
@@ -22,6 +23,7 @@ app.add_middleware(
 )
 
 trueRelevanceDataSource = TrueRelevanceDataSource()
+waterDataSource = WaterDataSource()
 
 with open("events.json", "r", encoding="utf-8") as f:
     events = json.load(f)
@@ -33,6 +35,12 @@ def health():
 @app.get("/api/events")
 def get_events():
     all_events = trueRelevanceDataSource.get_data()
+
+    water_events = waterDataSource.get_data()
+    for e in water_events:
+        all_events.append(e)
+
     for e in events:
         all_events.append(e)
+
     return all_events
