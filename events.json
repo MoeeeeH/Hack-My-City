@@ -4,17 +4,19 @@
     "date": "15-07",
     "location": "Marktplatz",
     "description": "Music and food festival",
-    "categorie": "event",
+    "start_time": "15-07",
     "latitude": 48.669,
-    "longitude": 12.696
+    "longitude": 12.696,
+    "category": "event"
   },
   {
     "name": "Weihnachtsmarkt",
-    "date": "05-12",
+    "start_time": "05-12",
     "location": "Stadtplatz",
     "description": "Traditional Christmas market",
-    "categorie": "event",
     "latitude": 48.670,
-    "longitude": 12.695
-  }
+    "longitude": 12.695,
+    "category": "event"
+}
 ]
+
