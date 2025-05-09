@@ -66,11 +66,17 @@ class TrueRelevanceDataSource:
             start_time = today + datetime.timedelta(days=j)
 
             addr = self.location_for_description(hit["_source"]["article_body"])
-            lat, long = extract_location(addr)
 
+            global lat, long
+            try:
+                lat, long = extract_location(addr)
+            except Exception as e:
+                lat, long = None, None
+
+            print(hit)
             event = EventModel(
                 name=hit["_source"]["article_body"][0:20],
-                description=hit["_source"]["article_body"],
+                description=f'url: {hit["_source"]["url"]} description: {hit["_source"]["article_body"]}',
                 start_time=start_time,
                 end_time=None,
                 category="news",
