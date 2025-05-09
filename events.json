@@ -2,22 +2,19 @@
   {
     "name": "Landauer Stadtfest",
     "date": "15-07",
-    "location": "Marktplartz",
-    "latitude": 48.6681,
-    "longitude": 12.6969,
-    "description": "Music and food festival in downtown Landau",
-    "categorie": "event"
+    "location": "Marktplatz",
+    "description": "Music and food festival",
+    "categorie": "event",
+    "latitude": 48.669,
+    "longitude": 12.696
   },
-
-
   {
     "name": "Weihnachtsmarkt",
     "date": "05-12",
     "location": "Stadtplatz",
-    "latitude": 48.6675,
-    "longitude": 12.6955,
     "description": "Traditional Christmas market",
-     "categorie": "event"
+    "categorie": "event",
+    "latitude": 48.670,
+    "longitude": 12.695
   }
-
 ]
