@@ -81,7 +81,7 @@ class TrueRelevanceDataSource:
             except Exception as e:
                 lat, long = None, None
 
-            print(hit)
+            print(f"{j}/{int(os.getenv("KNN"))} - {hit}")
             event = EventModel(
                 name=hit["_source"]["article_body"][0:20],
                     description=f'url: {hit["_source"]["url"]} description: {hit["_source"]["article_body"]}'[0:200],

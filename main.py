@@ -27,6 +27,10 @@ app.add_middleware(
 waterDataSource = WaterDataSource()
 trueRelevanceDataSource = TrueRelevanceDataSource()
 
+
+global event_cache
+event_cache = None
+
 with open("events.json", "r", encoding="utf-8") as f:
     events = json.load(f)
 
@@ -36,6 +40,10 @@ def health():
 
 @app.get("/api/events")
 def get_events(lat: Optional[float] = Query(None), lon: Optional[float] = Query(None)):
+
+    if event_cache is not None and len(event_cache) > 0:
+        return event_cache
+
     all_events = trueRelevanceDataSource.get_data()
     events = load_events()
 
@@ -55,6 +63,8 @@ def get_events(lat: Optional[float] = Query(None), lon: Optional[float] = Query(
                 event_coords = (event["latitude"], event["longitude"])
                 event["user_distance"] = round(calculate_distance(user_coords, event_coords), 2)
 
+
+    event_cache = all_events
     return all_events
 
 
