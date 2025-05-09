@@ -35,7 +35,7 @@ class WaterDataSource:
                 date = row[0].replace('\ufeff', '')
 
                 date = datetime.datetime.strptime(date, "%Y-%m-%d")
-                if date.year < 2000:
+                if date.year < 2006:
                     continue
 
 
@@ -62,7 +62,7 @@ class WaterDataSource:
                     print(f"measure from {date} and location {lat},{long} is {avg} with max {max} and min {min}")
                     event = EventModel(
                         name="Water Temperature",
-                        description=f"Min: {min}, Max: {max}, Avg: {avg}, Date: {date}, Location: {lat},{long}, File: {file}",
+                        description=f"Min: {min}, Max: {max}, Avg: {avg}, Date: {date}, Location: {lat},{long}",
                         start_time=date,
                         end_time=None,
                         category="infrastructure",
