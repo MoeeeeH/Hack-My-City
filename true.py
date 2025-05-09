@@ -89,7 +89,8 @@ class TrueRelevanceDataSource:
                 end_time=None,
                 category="news",
                 latitude=lat or 48.667102 + i,
-                longitude=long or 12.695920 - i
+                longitude=long or 12.695920 - i,
+                user_distance=None
             )
 
             print(f"Name {event.name}, addr {addr}, lat {lat}, long {long}")
