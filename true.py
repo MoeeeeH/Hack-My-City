@@ -39,7 +39,7 @@ class TrueRelevanceDataSource:
             "embedding_weight":0.4,
             "image_caption_text":"Landau an der Isar",
             "image_caption_weight":0.2,
-            "knn":500,
+            "knn":int(os.getenv("KNN")),
             "sentiment":-10,
             "sentiment_operator":">",
             "time_filter_start":"2019-12-31T23:00:00.000Z",
