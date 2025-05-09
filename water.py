@@ -35,7 +35,7 @@ class WaterDataSource:
                 date = row[0].replace('\ufeff', '')
 
                 date = datetime.datetime.strptime(date, "%Y-%m-%d")
-                if date.year < 2010:
+                if date.year < 2000:
                     continue
 
 

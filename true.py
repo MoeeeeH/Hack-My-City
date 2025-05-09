@@ -17,6 +17,7 @@ class TrueRelevanceDataSource:
         self.client_id = os.getenv("CF_ACCESS_CLIENT_ID")
         self.client_secret = os.getenv("CF_ACCESS_SECRET_KEY")
         self.events: list[EventModel] = []
+        self.fetched = False
         self.open_aiclient = AzureOpenAI(
             api_key=os.getenv("AZURE_OPENAI_API_KEY"),  
             api_version="2024-07-01-preview",
@@ -24,6 +25,9 @@ class TrueRelevanceDataSource:
         )
 
     def get_data(self):
+        if self.fetched:
+            return self.events
+
         if len(self.events) == 0:
             self._request_data()
         return self.events
@@ -65,12 +69,22 @@ class TrueRelevanceDataSource:
             today = datetime.datetime.now()
             start_time = today + datetime.timedelta(days=j)
 
-            addr = self.location_for_description(hit["_source"]["article_body"])
-            lat, long = extract_location(addr)
+            try:
+                addr = self.location_for_description(hit["_source"]["article_body"])
+            except Exception as e:
+                print(f"Error: {e}")
+                continue
 
+            global lat, long
+            try:
+                lat, long = extract_location(addr)
+            except Exception as e:
+                lat, long = None, None
+
+            print(hit)
             event = EventModel(
                 name=hit["_source"]["article_body"][0:20],
-                description=hit["_source"]["article_body"],
+                description=f'url: {hit["_source"]["url"]} description: {hit["_source"]["article_body"]}',
                 start_time=start_time,
                 end_time=None,
                 category="news",
@@ -85,6 +99,7 @@ class TrueRelevanceDataSource:
 
             self.events.append(event)
             time.sleep(1)
+        self.fetched = True
 
     def location_for_description(self, desc: str):
         completion = self.open_aiclient.chat.completions.create(

@@ -1,22 +1,317 @@
 [
-  {
-    "name": "Landauer Stadtfest",
-    "date": "15-07",
-    "location": "Marktplatz",
-    "description": "Music and food festival",
-    "start_time": "15-07",
-    "latitude": 48.669,
-    "longitude": 12.696,
-    "category": "event"
-  },
-  {
-    "name": "Weihnachtsmarkt",
-    "start_time": "05-12",
-    "location": "Stadtplatz",
-    "description": "Traditional Christmas market",
-    "latitude": 48.670,
-    "longitude": 12.695,
-    "category": "event"
-}
+    {
+        "name": "Hotel California",
+        "description": "Die besten Songs der EAGLES – live!Von „Take It Easy“ und „Tequila Sunrise“ bis „Hotel California“ endlich wieder „One of these nights“! Westcoast-Sound in der absoluten Kult-Location „HAUS 111“!",
+        "start_time": "2025-05-10T21:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.637548,
+        "longitude": 12.7478582
+    },
+    {
+        "name": "Hundetag im Museum",
+        "description": "Hunde sind die ältesten Haustiere des Menschen und begleiten uns seit vielen tausend Jahren. Der Kastenhof Landau - Das Museum für Steinzeit und Gegenwart heißt Sie zusammen mit Ihren vierbeinigen Begleitern an jedem ersten und dritten Samstag im Monat herzlich willkommen. Wir bitten, auf andere Besucherinnen und Besucher Rücksicht zu nehmen. Im Museum sind alle Hunde an der Leine zu führen. Eine Wasserschüssel steht am Eingang zur Verfügung.",
+        "start_time": "2025-05-17T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Internationaler Museumstag im Steinzeitmuseum",
+        "description": "Auch in diesem Jahr bietet das Steinzeitmuseum am Internationale Museumstag wieder freien Eintritt und ein buntes Programm an!In Kürze:ganztägig | freier Eintritt10.30 bis 16.30 Uhr | offener Workshop \"Steinzeit-Küche mit Brot backen\"11.00 bis 16.30 Uhr | Betrieb des Lehmkuppelofens (Förderkreis Niederbayerisches Archäologiemuseum e.V.)14.30 bis 15.30 Uhr | offene Führung \"Zeit der Erfindungen: Die Jungsteinzeit\"  Offener Workshop \"Steinzeit-Küche mit Brot backen\" und Betrieb des Lehmkuppelofens Wir heizen ein und backen von 11.00 bis 16.30 Uhr kleine Semmeln aus selbst gemahlenem Mehl in unserem Lehmkuppelofen nach steinzeitlichem Vorbild. Während die Semmeln backen, schütteln wir selbst Butter, der dann gleich mit den eigenen Semmeln probiert werden kann. Außerdem versuchen wir uns am Feuer machen wie in der Steinzeit und schlagen Funken mit Feuerstein und Pyrit.Die Besucher können jederzeit vorbeikommen und sollten sich etwa 45 bis 60 Minuten Zeit nehmen. Der Lehmkuppelofen wir vom Förderkreis Niederbayerisches Archäologiemuseum e.V. betrieben. Der Eintritt ins Museum ist am Internationalen Museumstag frei.   Offene Führung „Zeit der Erfindungen: Die Jungsteinzeit“ Keine Epoche brachte mehr Veränderungen als die Jungsteinzeit! Bei uns können Sie weit mehr entdecken als nur Steine: detailgetreue Nachbildungen neben originalen Fundstücken, anschauliche Rekonstruktionen vergangener Kulturen und die lebensechte Figur von Lisar, einer Frau aus der Jungsteinzeit! Diese spannende Tour durch die Dauerausstellung des Kastenhofes lässt Sie eintauchen in den Alltag der ersten Bauern und eröffnet ganz neue Perspektiven auf Fragen, die uns im Hier und Heute beschäftigen. Der Eintritt ins Museum ist am Internationalen Musemstag frei.",
+        "start_time": "2025-05-18T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Vatertagsfeier mit De Agsteidn",
+        "description": "Man nehme ein paar musikalische, junge Burschen aus dem Raum Rottal-Inn/Landau und gebe noch einen Schuss gute Laune hinzu. Dann bekommt man so in etwa das, was die Jungs von „De Agsteidn“ mitbringen. Die Vier verbindet die Liebe zur Musik und dadurch, dass jeder andere musikalische Vorlieben hat, erhält man als Zuhörer eine bunte Mischung aus Bayrischer Mundart, Oldies, Rockklassikern bis hin zu österreichischen Gassenhauern und bekannten Schlagermelodien. Da ist selbst für den „hoagligsten“ Musikhörer etwas dabei.",
+        "start_time": "2025-05-29T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.637548,
+        "longitude": 12.7478582
+    },
+    {
+        "name": "Musikschulförderpreis der Sparkasse Niederbayern-Mitte",
+        "description": "Die Städtische Musikschule Landau a.d.Isar sowie die Sparkasse Niederbayern-Mitte laden Sie sehr herzlich ein",
+        "start_time": "2025-06-01T10:30:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Hundetag im Museum",
+        "description": "Hunde sind die ältesten Haustiere des Menschen und begleiten uns seit vielen tausend Jahren. Der Kastenhof Landau - Das Museum für Steinzeit und Gegenwart heißt Sie zusammen mit Ihren vierbeinigen Begleitern an jedem ersten und dritten Samstag im Monat herzlich willkommen. Wir bitten, auf andere Besucherinnen und Besucher Rücksicht zu nehmen. Im Museum sind alle Hunde an der Leine zu führen. Eine Wasserschüssel steht am Eingang zur Verfügung.",
+        "start_time": "2025-06-07T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Museum geöffnet – Pfingstsonntag",
+        "description": "Am Pfingstsonntag, dem 08. Juni 2025, hat das Museum von 10 bis 13 Uhr und von 14 bis 17 Uhr geöffnet. Wir freuen uns auf Ihren Besuch!",
+        "start_time": "2025-06-08T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Museum geöffnet – Pfingstmontag",
+        "description": "Am Pfingstmontag, dem 09. Juni 2025, hat das Museum von 10 bis 13 Uhr und von 14 bis 17 Uhr geöffnet. Wir freuen uns auf Ihren Besuch!",
+        "start_time": "2025-06-09T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "30. Ami und Oldtimertreffen mit 111er Band und PATCH WOLED",
+        "description": "Zum 30 mal findet unser Ami und Oldtimer treffen statt.Ab 10 Uhr gibt es Weißwurscht und Wiener. Danach gibt es Fleisch, Würstel und Burger vom Holzkohle Grill. Auch für die Naschkatzen gibt es verschiedene Kuchen von der Hauseigenen beruflichen Bäckerin Mona. 111er BandWer ist die 111er band?Schon im Jahr 2014 gegründet von Klaus und Karl, mit Pause dazwischen da sie sich aufgelöst hat.Im Jahr 2022 wieder mit neuer Besetzung an den Start gegangen.Gegründet von Klaus, Karl und Heiner. Und seit September wieder eine neue Mannschaft, denn die 111er band stirbt nie. Und wer sind die neuen?Neu kann man nicht wirklich sagen, des es sind alt bekannte Gesicht, aus anderen bands.Charly und Patrick bekannt aus Mad Guitar Murphy, haben sich zu unserer Freunde der 111er band angeschlossen. Ganz neu in der Band und auch auf der Bühne, als Sängerin, dürfen wir Katy vorstellen. Und seit neuestem dürfen wir auch Armin in der 111er band begrüßen. Durch die Mischung von Erfahrung und frischen Wind, erstrecken sich auch die Songs die sie zum besten geben. Von Rock bis Country, von fetzig bis entspannend.Aber am besten macht ihr euch selbst ein Bild von ihnen bzw lasst euren Ohren das Musikalische Zusammenspiel genießen.",
+        "start_time": "2025-06-09T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.637548,
+        "longitude": 12.7478582
+    },
+    {
+        "name": "Hundetag im Museum",
+        "description": "Hunde sind die ältesten Haustiere des Menschen und begleiten uns seit vielen tausend Jahren. Der Kastenhof Landau - Das Museum für Steinzeit und Gegenwart heißt Sie zusammen mit Ihren vierbeinigen Begleitern an jedem ersten und dritten Samstag im Monat herzlich willkommen. Wir bitten, auf andere Besucherinnen und Besucher Rücksicht zu nehmen. Im Museum sind alle Hunde an der Leine zu führen. Eine Wasserschüssel steht am Eingang zur Verfügung.",
+        "start_time": "2025-06-21T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Tag der offenen Türe",
+        "description": "Anlässlich unseres „Tages der offenen Tür“ öffnen wir unsere Unterrichts-räume. Die Lehrkräfte stehen für Probeunterricht, Information und Beratung zur Verfügung. Anmeldungen für das neue Schuljahr können an diesem Tag erfolgen.",
+        "start_time": "2025-07-05T09:30:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6675635,
+        "longitude": 12.6932718
+    },
+    {
+        "name": "Hundetag im Museum",
+        "description": "Hunde sind die ältesten Haustiere des Menschen und begleiten uns seit vielen tausend Jahren. Der Kastenhof Landau - Das Museum für Steinzeit und Gegenwart heißt Sie zusammen mit Ihren vierbeinigen Begleitern an jedem ersten und dritten Samstag im Monat herzlich willkommen. Wir bitten, auf andere Besucherinnen und Besucher Rücksicht zu nehmen. Im Museum sind alle Hunde an der Leine zu führen. Eine Wasserschüssel steht am Eingang zur Verfügung.",
+        "start_time": "2025-07-05T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Hundetag im Museum",
+        "description": "Hunde sind die ältesten Haustiere des Menschen und begleiten uns seit vielen tausend Jahren. Der Kastenhof Landau - Das Museum für Steinzeit und Gegenwart heißt Sie zusammen mit Ihren vierbeinigen Begleitern an jedem ersten und dritten Samstag im Monat herzlich willkommen. Wir bitten, auf andere Besucherinnen und Besucher Rücksicht zu nehmen. Im Museum sind alle Hunde an der Leine zu führen. Eine Wasserschüssel steht am Eingang zur Verfügung.",
+        "start_time": "2025-07-19T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Hundetag im Museum",
+        "description": "Hunde sind die ältesten Haustiere des Menschen und begleiten uns seit vielen tausend Jahren. Der Kastenhof Landau - Das Museum für Steinzeit und Gegenwart heißt Sie zusammen mit Ihren vierbeinigen Begleitern an jedem ersten und dritten Samstag im Monat herzlich willkommen. Wir bitten, auf andere Besucherinnen und Besucher Rücksicht zu nehmen. Im Museum sind alle Hunde an der Leine zu führen. Eine Wasserschüssel steht am Eingang zur Verfügung.",
+        "start_time": "2025-08-02T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Offener Workshop „Speckstein-Schleifen“",
+        "description": "In den Sommerferien bieten wir jeden Sonntag offene Workshops an. \nAm 03.8.2025 können die Besucher Anhänger aus weichem Speckstein gestalten. Wir schleifen mit Feilen und Sandstein, dem Schleifpapier der Steinzeit.Ihr könnt zwischen 14.30 und 16.00 Uhr jederzeit vorbeikommen. Die Herstellung eines Anhängers dauert etwa eine halbe Stunde.Materialkosten: 2 € p.P.  Alle offenen Workshops auf einen Blick:Sonntag, 03. August 2025 | Speckstein-SchleifenSonntag, 10. August 2025 | LedertaschenSonntag, 17. August 2025 | Bernstein-SchleifenSonntag, 24. August 2025 | Steinzeit-KünstlerSonntag, 31. August 2025 | Speckstein-SchleifenSonntag, 07. September 2025 | Steinzeit-KücheSonntag, 14. September 2025 | Holzanhänger | Tag des offenen Denkmals | Eintritt frei",
+        "start_time": "2025-08-03T14:30:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Offener Workshop „Ledertaschen“",
+        "description": "In den Sommerferien bieten wir jeden Sonntag offene Workshops an. \nAm 10.8.2025 können die Besucher sich im Nähen mit der Hand versuchen und eine kleine Ledertasche herstellen. Ihr könnt zwischen 14.30 und 16.00 Uhr jederzeit vorbeikommen. Die Herstellung einer Tasche dauert etwa eine halbe Stunde.Materialkosten: 2 € p.P.  Alle offenen Workshops auf einen Blick:Sonntag, 03. August 2025 | Speckstein-SchleifenSonntag, 10. August 2025 | LedertaschenSonntag, 17. August 2025 | Bernstein-SchleifenSonntag, 24. August 2025 | Steinzeit-KünstlerSonntag, 31. August 2025 | Speckstein-SchleifenSonntag, 07. September 2025 | Steinzeit-KücheSonntag, 14. September 2025 | Holzanhänger | Tag des offenen Denkmals | Eintritt frei",
+        "start_time": "2025-08-10T14:30:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Blues Briederchen® – Blues Brothers Tribute Band",
+        "description": "Die Blues Briederchen® sind derzeit die wohl coolste Blues Brothers Tribute- und Showband Bayerns. Seit Anfang 2004 ist die zehnköpfige Formation „im Auftrag des Herrn“ auf den großen und kleinen Bühnen in Deutschland, Österreich, der Schweiz und Irland unterwegs. Die energiegeladene Show lässt nichts vermissen, was an die kultigen Originale Jake und Elwood erinnert:Ob es die rotzige Chicago Blues-Harp oder der gewaltige Bläsersatz ist, die Band lässt kein Detail aus und sorgt nicht zuletzt mit Jake und Elwood für ein begeisterndes Rhythm&Blues-Erlebnis. Neben den Songs der Blues Brothers ergänzen auch weitere Klassiker u.a. von den Commitments, James Brown und Aretha Franklin das umfangreiche Repertoire der Band. Geboten wird aber nicht nur ein musikalisch beeindruckendes Erlebnis für die Ohren, sondern auch mindestens genauso viel fürs Auge:Die bezaubernde und stimmgewaltige Frontfrau („The BlueSister“), die Choreographie der Bläser-Section („The Horny Horns“) und nicht zuletzt die unvergleichlich schweißtreibenden Tanzeinlagen, sowie die Nähe zumPublikumvon „Jake & Elwood“ an der Front sorgen für ein Entertainmenterlebnis der ganz besonderen Art, eben ein unvergleichliches „Tribute to The Original Blues Brothers“.",
+        "start_time": "2025-08-14T20:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.637548,
+        "longitude": 12.7478582
+    },
+    {
+        "name": "Museum geöffnet – Mariä Himmelfahrt",
+        "description": "An Mariä Himmelfahrt, dem 15. August 2025, hat das Museum von 10 bis 13 Uhr und von 14 bis 17 Uhr geöffnet. Wir freuen uns auf Ihren Besuch!",
+        "start_time": "2025-08-15T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Hundetag im Museum",
+        "description": "Hunde sind die ältesten Haustiere des Menschen und begleiten uns seit vielen tausend Jahren. Der Kastenhof Landau - Das Museum für Steinzeit und Gegenwart heißt Sie zusammen mit Ihren vierbeinigen Begleitern an jedem ersten und dritten Samstag im Monat herzlich willkommen. Wir bitten, auf andere Besucherinnen und Besucher Rücksicht zu nehmen. Im Museum sind alle Hunde an der Leine zu führen. Eine Wasserschüssel steht am Eingang zur Verfügung.",
+        "start_time": "2025-08-16T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Offener Workshop „Bernstein-Schleifen“",
+        "description": "In den Sommerferien bieten wir jeden Sonntag offene Workshops an. \nAm 17.8.2025 können die Besucher Anhänger aus Bernstein gestalten. Wir schleifen mit Feilen und Sandstein, dem Schleifpapier der Steinzeit.Ihr könnt zwischen 14.30 und 16.00 Uhr jederzeit vorbeikommen. Die Herstellung eines Anhängers dauert etwa eine halbe Stunde.Materialkosten: 2 € p.P.  Alle offenen Workshops auf einen Blick:Sonntag, 03. August 2025 | Speckstein-SchleifenSonntag, 10. August 2025 | LedertaschenSonntag, 17. August 2025 | Bernstein-SchleifenSonntag, 24. August 2025 | Steinzeit-KünstlerSonntag, 31. August 2025 | Speckstein-SchleifenSonntag, 07. September 2025 | Steinzeit-KücheSonntag, 14. September 2025 | Holzanhänger | Tag des offenen Denkmals | Eintritt frei",
+        "start_time": "2025-08-17T14:30:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Offener Workshop „Steinzeit-Künstler“",
+        "description": "In den Sommerferien bieten wir jeden Sonntag offene Workshops an. \nAm 24.8.2025 können die Besucher selbst Farben aus Steinen herstellen und damit kreative Bilder gestalten. Die Menschen in der Jungsteinzeit fertigten zwar keine Höhlenmalereien mehr an, Farbe spielte dennoch eine große Rolle in ihrem Leben – ob auf weiß gekalkten Wänden, Keramikgefäßen oder auf der Haut.Ihr könnt zwischen 14.30 und 16.00 Uhr jederzeit vorbeikommen. Die Herstellung eines Anhängers dauert etwa eine halbe Stunde.Materialkosten: 2 € p.P.  Alle offenen Workshops auf einen Blick:Sonntag, 03. August 2025 | Speckstein-SchleifenSonntag, 10. August 2025 | LedertaschenSonntag, 17. August 2025 | Bernstein-SchleifenSonntag, 24. August 2025 | Steinzeit-KünstlerSonntag, 31. August 2025 | Speckstein-SchleifenSonntag, 07. September 2025 | Steinzeit-KücheSonntag, 14. September 2025 | Holzanhänger | Tag des offenen Denkmals | Eintritt frei",
+        "start_time": "2025-08-24T14:30:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Offener Workshop „Speckstein-Schleifen“",
+        "description": "In den Sommerferien bieten wir jeden Sonntag offene Workshops an. \nAm 31.8.2025 können die Besucher Anhänger aus weichem Speckstein gestalten. Wir schleifen mit Feilen und Sandstein, dem Schleifpapier der Steinzeit.Ihr könnt zwischen 14.30 und 16.00 Uhr jederzeit vorbeikommen. Die Herstellung eines Anhängers dauert etwa eine halbe Stunde.Materialkosten: 2 € p.P.  Alle offenen Workshops auf einen Blick:Sonntag, 03. August 2025 | Speckstein-SchleifenSonntag, 10. August 2025 | LedertaschenSonntag, 17. August 2025 | Bernstein-SchleifenSonntag, 24. August 2025 | Steinzeit-KünstlerSonntag, 31. August 2025 | Speckstein-SchleifenSonntag, 07. September 2025 | Steinzeit-KücheSonntag, 14. September 2025 | Holzanhänger | Tag des offenen Denkmals | Eintritt frei",
+        "start_time": "2025-08-31T14:30:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Hundetag im Museum",
+        "description": "Hunde sind die ältesten Haustiere des Menschen und begleiten uns seit vielen tausend Jahren. Der Kastenhof Landau - Das Museum für Steinzeit und Gegenwart heißt Sie zusammen mit Ihren vierbeinigen Begleitern an jedem ersten und dritten Samstag im Monat herzlich willkommen. Wir bitten, auf andere Besucherinnen und Besucher Rücksicht zu nehmen. Im Museum sind alle Hunde an der Leine zu führen. Eine Wasserschüssel steht am Eingang zur Verfügung.",
+        "start_time": "2025-09-06T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Offener Workshop „Steinzeit-Küche“",
+        "description": "In den Sommerferien bieten wir jeden Sonntag offene Workshops an. \nAm 07.9.2025 tauchen die Besucher in die kulinarische Welt der ersten Bauern ein. Wir mahlen Mehl auf der Schiebemühle, schütteln Butter und stellen in wenigen Minuten Weichkäse her. Außerdem fliegen die Funken, wenn wir ausprobieren, wie in der Steinzeit Feuer gemacht wurde.Ihr könnt zwischen 14.30 und 16.00 Uhr jederzeit vorbeikommen. Die Herstellung eines Anhängers dauert etwa eine halbe Stunde.Materialkosten: 2 € p.P.  Alle offenen Workshops auf einen Blick:Sonntag, 03. August 2025 | Speckstein-SchleifenSonntag, 10. August 2025 | LedertaschenSonntag, 17. August 2025 | Bernstein-SchleifenSonntag, 24. August 2025 | Steinzeit-KünstlerSonntag, 31. August 2025 | Speckstein-SchleifenSonntag, 07. September 2025 | Steinzeit-KücheSonntag, 14. September 2025 | Holzanhänger | Tag des offenen Denkmals | Eintritt frei",
+        "start_time": "2025-09-07T14:30:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Hundetag im Museum",
+        "description": "Hunde sind die ältesten Haustiere des Menschen und begleiten uns seit vielen tausend Jahren. Der Kastenhof Landau - Das Museum für Steinzeit und Gegenwart heißt Sie zusammen mit Ihren vierbeinigen Begleitern an jedem ersten und dritten Samstag im Monat herzlich willkommen. Wir bitten, auf andere Besucherinnen und Besucher Rücksicht zu nehmen. Im Museum sind alle Hunde an der Leine zu führen. Eine Wasserschüssel steht am Eingang zur Verfügung.",
+        "start_time": "2025-09-20T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Museumsfest",
+        "description": "",
+        "start_time": "2025-09-28T11:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Museum geöffnet – Tag der deutschen Einheit",
+        "description": "Am Tag der deutschen Einheit, dem 03. Oktober 2025, hat das Museum von 10 bis 13 Uhr und von 14 bis 17 Uhr geöffnet. Wir freuen uns auf Ihren Besuch!",
+        "start_time": "2025-10-03T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Hundetag im Museum",
+        "description": "Hunde sind die ältesten Haustiere des Menschen und begleiten uns seit vielen tausend Jahren. Der Kastenhof Landau - Das Museum für Steinzeit und Gegenwart heißt Sie zusammen mit Ihren vierbeinigen Begleitern an jedem ersten und dritten Samstag im Monat herzlich willkommen. Wir bitten, auf andere Besucherinnen und Besucher Rücksicht zu nehmen. Im Museum sind alle Hunde an der Leine zu führen. Eine Wasserschüssel steht am Eingang zur Verfügung.",
+        "start_time": "2025-10-04T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Hundetag im Museum",
+        "description": "Hunde sind die ältesten Haustiere des Menschen und begleiten uns seit vielen tausend Jahren. Der Kastenhof Landau - Das Museum für Steinzeit und Gegenwart heißt Sie zusammen mit Ihren vierbeinigen Begleitern an jedem ersten und dritten Samstag im Monat herzlich willkommen. Wir bitten, auf andere Besucherinnen und Besucher Rücksicht zu nehmen. Im Museum sind alle Hunde an der Leine zu führen. Eine Wasserschüssel steht am Eingang zur Verfügung.",
+        "start_time": "2025-10-18T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Museum geöffnet – Allerheiligen",
+        "description": "An Allerheiligen, dem 01. November 2025, hat das Museum von 10 bis 13 Uhr und von 14 bis 17 Uhr geöffnet. Wir freuen uns auf Ihren Besuch!",
+        "start_time": "2025-11-01T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Hundetag im Museum",
+        "description": "Hunde sind die ältesten Haustiere des Menschen und begleiten uns seit vielen tausend Jahren. Der Kastenhof Landau - Das Museum für Steinzeit und Gegenwart heißt Sie zusammen mit Ihren vierbeinigen Begleitern an jedem ersten und dritten Samstag im Monat herzlich willkommen. Wir bitten, auf andere Besucherinnen und Besucher Rücksicht zu nehmen. Im Museum sind alle Hunde an der Leine zu führen. Eine Wasserschüssel steht am Eingang zur Verfügung.",
+        "start_time": "2025-11-01T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Hundetag im Museum",
+        "description": "Hunde sind die ältesten Haustiere des Menschen und begleiten uns seit vielen tausend Jahren. Der Kastenhof Landau - Das Museum für Steinzeit und Gegenwart heißt Sie zusammen mit Ihren vierbeinigen Begleitern an jedem ersten und dritten Samstag im Monat herzlich willkommen. Wir bitten, auf andere Besucherinnen und Besucher Rücksicht zu nehmen. Im Museum sind alle Hunde an der Leine zu führen. Eine Wasserschüssel steht am Eingang zur Verfügung.",
+        "start_time": "2025-11-15T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Hundetag im Museum",
+        "description": "Hunde sind die ältesten Haustiere des Menschen und begleiten uns seit vielen tausend Jahren. Der Kastenhof Landau - Das Museum für Steinzeit und Gegenwart heißt Sie zusammen mit Ihren vierbeinigen Begleitern an jedem ersten und dritten Samstag im Monat herzlich willkommen. Wir bitten, auf andere Besucherinnen und Besucher Rücksicht zu nehmen. Im Museum sind alle Hunde an der Leine zu führen. Eine Wasserschüssel steht am Eingang zur Verfügung.",
+        "start_time": "2025-12-06T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Hundetag im Museum",
+        "description": "Hunde sind die ältesten Haustiere des Menschen und begleiten uns seit vielen tausend Jahren. Der Kastenhof Landau - Das Museum für Steinzeit und Gegenwart heißt Sie zusammen mit Ihren vierbeinigen Begleitern an jedem ersten und dritten Samstag im Monat herzlich willkommen. Wir bitten, auf andere Besucherinnen und Besucher Rücksicht zu nehmen. Im Museum sind alle Hunde an der Leine zu führen. Eine Wasserschüssel steht am Eingang zur Verfügung.",
+        "start_time": "2025-12-20T10:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    },
+    {
+        "name": "Faschingskonzert mit Ilona Cudek & Friends",
+        "description": "2 Konzerte17:00 Uhr und 19:00 Uhr Kartenvorverkauf:ilonacudek7@gmail.com0173 3696999",
+        "start_time": "2026-02-17T17:00:00",
+        "end_time": null,
+        "category": "event",
+        "latitude": 48.6686189,
+        "longitude": 12.6902632
+    }
 ]
-

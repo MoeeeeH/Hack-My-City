@@ -11,6 +11,8 @@ with open("events.json", "r", encoding="utf-8") as f:
 
 
 def extract_location(address) -> tuple:
+    if "Landau" not in address:
+        address = f"{address}, Landau an der Isar, Germany"
     location = geolocator.geocode(address)
     if location:
         print(f"Updated: {address} → ({location.latitude}, {location.longitude})")
