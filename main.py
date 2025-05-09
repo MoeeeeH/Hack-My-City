@@ -53,7 +53,7 @@ def get_events(lat: Optional[float] = Query(None), lon: Optional[float] = Query(
         for event in events:
             if "latitude" in event and "longitude" in event:
                 event_coords = (event["latitude"], event["longitude"])
-                event["distance_km"] = round(calculate_distance(user_coords, event_coords), 2)
+                event["user_distance"] = round(calculate_distance(user_coords, event_coords), 2)
 
     return all_events
 
