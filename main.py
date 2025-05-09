@@ -1,9 +1,11 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 import json
 from dotenv import load_dotenv
 from true import TrueRelevanceDataSource
 from water import WaterDataSource
+from typing import Optional
+from calculate_distance import load_events, calculate_distance, find_nearby_events
 
 load_dotenv()
 
@@ -22,8 +24,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-trueRelevanceDataSource = TrueRelevanceDataSource()
-waterDataSource = WaterDataSource()
+#trueRelevanceDataSource = TrueRelevanceDataSource()
+#waterDataSource = WaterDataSource()
 
 with open("events.json", "r", encoding="utf-8") as f:
     events = json.load(f)
@@ -33,14 +35,37 @@ def health():
     return "ok"
 
 @app.get("/api/events")
-def get_events():
-    all_events = trueRelevanceDataSource.get_data()
+def get_events(lat: Optional[float] = Query(None), lon: Optional[float] = Query(None)):
+    #all_events = trueRelevanceDataSource.get_data()
+    all_events = []
+    events = load_events()
 
-    water_events = waterDataSource.get_data()
-    for e in water_events:
-        all_events.append(e)
+
+    #water_events = waterDataSource.get_data()
+    #for e in water_events:
+    #    all_events.append(e)
 
     for e in events:
         all_events.append(e)
 
+
+    if lat is not None and lon is not None:
+        user_coords = (lat, lon)
+        for event in events:
+            if "latitude" in event and "longitude" in event:
+                event_coords = (event["latitude"], event["longitude"])
+                event["distance_km"] = round(calculate_distance(user_coords, event_coords), 2)
+
+    return {"events": events}    
+
+    
+
     return all_events
+
+
+
+
+
+
+
+

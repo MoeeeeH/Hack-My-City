@@ -9,4 +9,5 @@ class EventModel(BaseModel):
     category: str
     latitude: float
     longitude: float
+    user_distance: float | None
 
