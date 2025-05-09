@@ -84,7 +84,7 @@ class TrueRelevanceDataSource:
             print(hit)
             event = EventModel(
                 name=hit["_source"]["article_body"][0:20],
-                description=f'url: {hit["_source"]["url"]} description: {hit["_source"]["article_body"]}',
+                    description=f'url: {hit["_source"]["url"]} description: {hit["_source"]["article_body"]}'[0:200],
                 start_time=start_time,
                 end_time=None,
                 category="news",
