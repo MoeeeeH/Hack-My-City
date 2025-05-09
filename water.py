@@ -68,6 +68,7 @@ class WaterDataSource:
                         category="infrastructure",
                         latitude=lat,
                         longitude=long,
+                        user_distance=None
                     )
                     events.append(event)
         return events
