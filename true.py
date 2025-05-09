@@ -65,7 +65,11 @@ class TrueRelevanceDataSource:
             today = datetime.datetime.now()
             start_time = today + datetime.timedelta(days=j)
 
-            addr = self.location_for_description(hit["_source"]["article_body"])
+            try:
+                addr = self.location_for_description(hit["_source"]["article_body"])
+            except Exception as e:
+                print(f"Error: {e}")
+                continue
 
             global lat, long
             try:
